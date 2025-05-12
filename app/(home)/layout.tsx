@@ -1,4 +1,4 @@
-import Navbar from "./_components/navbar";
+
 import { Playfair_Display, Open_Sans, Dancing_Script } from 'next/font/google';
 const playfairDisplay = Playfair_Display({
   subsets: ['latin', 'vietnamese'],
@@ -27,7 +27,7 @@ export default function RootLayout({ children }: Props) {
     return (
         <html lang="en">
             <body className={`${playfairDisplay.variable} ${openSans.variable} ${dancingScript.variable}`} >
-                <Navbar />
+              
                 {children}
             </body>
         </html>

@@ -1,7 +1,6 @@
 import CallToActionSection from "./_components/contact";
 import WeddingWorksSection from "./_components/description1";
 import WeddingWorksSection2 from "./_components/description2";
-import Footer from "./_components/footer";
 import { ImageCarousel } from "./_components/image-carouse"; // Sửa tên file nếu bạn đã đổi
 import { IntroSection } from "./_components/intro-section";
 import { OurService } from "./_components/our-service";
@@ -50,9 +49,7 @@ export default function Home() {
       <CallToActionSection />
     </div>
 
-    <div>
-      <Footer />
-    </div>
+
     </main>
   );
 }
